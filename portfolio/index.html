@@ -95,7 +95,8 @@
       max-width: 100vw; max-height: 100dvh; margin: 0; padding: 0;
       border: 0; background: #fff; color: var(--ink); box-shadow: -10px 0 30px #1d233455;
     }
-    dialog::backdrop { background: #17203388; }
+    dialog::backdrop { background: #17203388; cursor: pointer; }
+    .artifact-preview iframe.video-frame { width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; }
     .dialog-shell { display: flex; flex-direction: column; height: 100%; }
     .dialog-head { position: sticky; top: 0; z-index: 1; display: flex; align-items: start; justify-content: space-between; gap: 14px; padding: 18px 22px; border-bottom: 5px solid var(--purple); background: #fff; }
     .dialog-head h2 { margin: 0; font-size: 1.28rem; line-height: 1.35; }
@@ -203,15 +204,16 @@
       </div>
       <div class="dialog-scroll">
         <p class="status-line" id="dialog-status"></p>
-        <section class="dialog-section" aria-labelledby="claim-heading"><h3 id="claim-heading">Evidence claim</h3><p id="dialog-claim"></p></section>
-        <section class="dialog-section draft-reflection" id="draft-section" aria-labelledby="draft-heading" hidden><h3 id="draft-heading">Proposed reflection for Ronald's review</h3><p class="draft-label">Draft only. Evidence status is unchanged.</p><p id="dialog-draft"></p></section>
-        <section class="dialog-section limitation" id="limitation-section" aria-labelledby="limitation-heading"><h3 id="limitation-heading">Evidence limitation</h3><p id="dialog-limitation"></p></section>
+        <section class="dialog-section" id="claim-section" aria-labelledby="claim-heading"><h3 id="claim-heading">About this evidence</h3><p id="dialog-claim"></p></section>
+        
+        
         <section class="dialog-section" aria-labelledby="artifact-heading"><h3 id="artifact-heading">Evidence</h3><div class="artifact-list" id="artifact-list"></div><div class="artifact-preview" id="artifact-preview"></div></section>
         
       </div>
       <div class="dialog-foot"><button id="close-bottom" type="button">Close</button></div>
     </div>
   </dialog>
+  <script src="videos.js"></script>
   <script src="showcase-data.js"></script>
   <script>
     "use strict";
@@ -286,12 +288,8 @@
       document.getElementById("dialog-course").textContent = course.name;
       const badge = element("span", categoryClass(outcome), category(outcome));
       statusLine.replaceChildren(badge);
-      document.getElementById("dialog-claim").textContent = outcome.claim || "No evidence claim is recorded yet.";
-      document.getElementById("draft-section").hidden = !outcome.draft;
-      document.getElementById("dialog-draft").textContent = outcome.draft || "";
-      const limitationSection = document.getElementById("limitation-section");
-      limitationSection.hidden = !outcome.limitation;
-      document.getElementById("dialog-limitation").textContent = outcome.limitation || "";
+      document.getElementById("claim-section").hidden = !outcome.claim;
+      document.getElementById("dialog-claim").textContent = outcome.claim || "";
       
       artifactList.replaceChildren();
       preview.replaceChildren();
@@ -324,12 +322,18 @@
         figure.append(image, element("figcaption", "", artifact.previewNote || currentOutcome.claim));
         preview.append(figure);
       } else if (artifact.kind === "video") {
-        const video = element("video");
-        video.src = path(artifact.preview);
-        video.controls = true;
-        video.preload = "metadata";
-        video.setAttribute("aria-label", "Video evidence: " + artifact.name);
-        preview.append(video, element("p", "preview-note", "A verified caption file or transcript has not yet been attached to this video."));
+        const link = (window.VIDEO_LINKS || {})[artifact.video] || "";
+        const match = link.match(/(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/)([\w-]{11})/);
+        if (match) {
+          const frame = element("iframe", "video-frame");
+          frame.src = "https://www.youtube-nocookie.com/embed/" + match[1] + "?rel=0";
+          frame.title = "Video evidence: " + artifact.name;
+          frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+          frame.allowFullscreen = true;
+          preview.append(frame);
+        } else {
+          preview.append(element("p", "", "This video is available from Ronald on request."));
+        }
       } else if (artifact.kind === "document") {
         const frame = element("iframe");
         frame.src = path(artifact.preview);
@@ -353,6 +357,11 @@
     search.addEventListener("input", renderCards);
     document.getElementById("close-top").addEventListener("click", () => dialog.close());
     document.getElementById("close-bottom").addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", event => {
+      const box = dialog.getBoundingClientRect();
+      const inside = event.clientX >= box.left && event.clientX <= box.right && event.clientY >= box.top && event.clientY <= box.bottom;
+      if (event.target === dialog && !inside) dialog.close();
+    });
     dialog.addEventListener("close", () => { if (returnFocus && returnFocus.isConnected) returnFocus.focus(); });
     renderCards();
   </script>
