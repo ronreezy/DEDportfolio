@@ -1,0 +1,88 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>280.1 - Remote Learning Design Portfolio - Page Source.tsx</title><style>body{margin:0;padding:1.25rem;color:#243044;background:#fff;font:1rem/1.55 system-ui,Arial,sans-serif}main{max-width:860px;margin:auto}h1{font-size:1.45rem;line-height:1.25}h2{font-size:1.2rem;margin-top:1.8rem}p{margin:.7rem 0}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border:1px solid #aeb8c8;padding:.45rem;text-align:left;vertical-align:top}th{background:#eae5f6}figure{margin:1rem 0}img{max-width:100%;height:auto}figcaption,.note{color:#4b5a70;font-size:.9rem}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:#f5f6f8;padding:1rem}a:focus-visible{outline:3px solid #673ab7;outline-offset:3px}</style></head><body><main><h1>280.1 - Remote Learning Design Portfolio - Page Source.tsx</h1><pre>&quot;use client&quot;;
+
+import { useState } from &quot;react&quot;;
+
+type Lens = &quot;All work&quot; | &quot;Learning systems&quot; | &quot;Learning experiences&quot; | &quot;Human work&quot;;
+
+const lenses: Lens[] = [&quot;All work&quot;, &quot;Learning systems&quot;, &quot;Learning experiences&quot;, &quot;Human work&quot;];
+
+const projects = [
+  { lens: &quot;Learning systems&quot;, eyebrow: &quot;Clover Park Technical College&quot;, title: &quot;Outcomes that live in the work&quot;, description: &quot;Co-developed college-wide learning outcomes, then built the toolkits, criteria, self-checks, and walkthroughs that help faculty use them.&quot;, result: &quot;Four outcome toolkits · 192 faculty and staff supported&quot;, number: &quot;01&quot; },
+  { lens: &quot;Learning systems&quot;, eyebrow: &quot;Faculty development + credentialing&quot;, title: &quot;A visible pathway for growth&quot;, description: &quot;Designed learning experiences and a credentialing ecosystem that makes professional development more intentional, portable, and easy to recognize.&quot;, result: &quot;381 badges · 4,418 awards · 15 pathways&quot;, number: &quot;02&quot; },
+  { lens: &quot;Learning experiences&quot;, eyebrow: &quot;Korean Women’s Association&quot;, title: &quot;Compliance made human&quot;, description: &quot;A 43-week academy that turns dense regulation into weekly learning, live practice, and real supervisor decision-making for a multilingual workforce.&quot;, result: &quot;128-hour curriculum · two learning cohorts&quot;, number: &quot;03&quot; },
+  { lens: &quot;Learning experiences&quot;, eyebrow: &quot;Statewide AI learning&quot;, title: &quot;AI literacy with a point of view&quot;, description: &quot;Co-developed practical AI learning for Washington’s community and technical colleges—designed for real teaching, policy, and human judgment.&quot;, result: &quot;5-hour course · 34 colleges&quot;, number: &quot;04&quot; },
+  { lens: &quot;Learning experiences&quot;, eyebrow: &quot;Global online learning&quot;, title: &quot;Teaching that travels&quot;, description: &quot;Designed and taught online communication courses for adult learners in Seoul while bringing visual storytelling, feedback, and care into every course.&quot;, result: &quot;Top 10 course recognition, four times&quot;, number: &quot;05&quot; },
+  { lens: &quot;Human work&quot;, eyebrow: &quot;Studio art + game design&quot;, title: &quot;The maker behind the method&quot;, description: &quot;A studio art education and a lifelong interest in games shape how Ronald approaches learning: make it tangible, give people agency, and leave room for curiosity.&quot;, result: &quot;B.A. Studio Art · early study in game design&quot;, number: &quot;06&quot; },
+];
+
+const signals = [[&quot;10+&quot;, &quot;years designing learning&quot;], [&quot;62,853&quot;, &quot;learning-resource views in three years&quot;], [&quot;500+&quot;, &quot;professional-development hours awarded&quot;]];
+
+export default function Home() {
+  const [activeLens, setActiveLens] = useState&lt;Lens&gt;(&quot;All work&quot;);
+  const visibleProjects = activeLens === &quot;All work&quot; ? projects : projects.filter((project) =&gt; project.lens === activeLens);
+
+  return (
+    &lt;main&gt;
+      &lt;nav className=&quot;site-nav&quot; aria-label=&quot;Primary navigation&quot;&gt;
+        &lt;a className=&quot;brand&quot; href=&quot;#top&quot; aria-label=&quot;Ronald Lethcoe home&quot;&gt;&lt;span className=&quot;brand-mark&quot;&gt;RL&lt;/span&gt;&lt;span&gt;Ronald Lethcoe&lt;/span&gt;&lt;/a&gt;
+        &lt;div className=&quot;nav-links&quot;&gt;&lt;a href=&quot;#work&quot;&gt;Selected work&lt;/a&gt;&lt;a href=&quot;#approach&quot;&gt;Approach&lt;/a&gt;&lt;a href=&quot;#credentials&quot;&gt;Credentials&lt;/a&gt;&lt;/div&gt;
+        &lt;a className=&quot;nav-contact&quot; href=&quot;mailto:[email omitted from public portfolio]&quot;&gt;Let&amp;apos;s talk &lt;span aria-hidden=&quot;true&quot;&gt;↗&lt;/span&gt;&lt;/a&gt;
+      &lt;/nav&gt;
+
+      &lt;section className=&quot;hero section-shell&quot; id=&quot;top&quot;&gt;
+        &lt;div className=&quot;hero-copy&quot;&gt;
+          &lt;p className=&quot;eyebrow&quot;&gt;&lt;span className=&quot;status-dot&quot; /&gt; Remote learning designer · educator · creative strategist&lt;/p&gt;
+          &lt;h1&gt;Learning works better when it feels &lt;em&gt;made for people.&lt;/em&gt;&lt;/h1&gt;
+          &lt;p className=&quot;hero-intro&quot;&gt;I design clear, usable learning systems and experiences that bring people from uncertainty to action. My work sits at the intersection of instructional design, faculty development, AI literacy, accessibility, and play.&lt;/p&gt;
+          &lt;div className=&quot;hero-actions&quot;&gt;&lt;a className=&quot;button button-primary&quot; href=&quot;#work&quot;&gt;Explore selected work &lt;span aria-hidden=&quot;true&quot;&gt;↓&lt;/span&gt;&lt;/a&gt;&lt;a className=&quot;text-link&quot; href=&quot;#about&quot;&gt;Meet the human behind it &lt;span aria-hidden=&quot;true&quot;&gt;↘&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div className=&quot;portrait-wrap&quot;&gt;
+          &lt;div className=&quot;portrait-frame&quot;&gt;&lt;img src=&quot;/ronald-lethcoe.jpg&quot; alt=&quot;Ronald Lethcoe&quot; /&gt;&lt;/div&gt;
+          &lt;div className=&quot;portrait-note&quot;&gt;&lt;span&gt;Working remotely&lt;/span&gt;&lt;strong&gt;from the Pacific Northwest&lt;/strong&gt;&lt;/div&gt;
+          &lt;div className=&quot;orbit orbit-one&quot; aria-hidden=&quot;true&quot; /&gt;&lt;div className=&quot;orbit orbit-two&quot; aria-hidden=&quot;true&quot; /&gt;
+        &lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;section className=&quot;signal-band&quot; aria-label=&quot;Selected impact&quot;&gt;&lt;div className=&quot;section-shell signal-grid&quot;&gt;
+        {signals.map(([number, label]) =&gt; &lt;div className=&quot;signal&quot; key={number}&gt;&lt;strong&gt;{number}&lt;/strong&gt;&lt;span&gt;{label}&lt;/span&gt;&lt;/div&gt;)}
+        &lt;p&gt;Not just courses, content, or credentials. &lt;br /&gt;&lt;em&gt;Systems people can actually use.&lt;/em&gt;&lt;/p&gt;
+      &lt;/div&gt;&lt;/section&gt;
+
+      &lt;section className=&quot;section-shell work-section&quot; id=&quot;work&quot;&gt;
+        &lt;div className=&quot;section-heading&quot;&gt;&lt;div&gt;&lt;p className=&quot;eyebrow&quot;&gt;Selected work&lt;/p&gt;&lt;h2&gt;A career made of connected experiments.&lt;/h2&gt;&lt;/div&gt;&lt;p&gt;I&amp;apos;m drawn to ambitious learning problems: building a shared language, making high-stakes content usable, or helping a new technology feel less alien.&lt;/p&gt;&lt;/div&gt;
+        &lt;div className=&quot;lens-control&quot; aria-label=&quot;Filter projects&quot;&gt;{lenses.map((lens) =&gt; &lt;button key={lens} className={activeLens === lens ? &quot;lens is-active&quot; : &quot;lens&quot;} onClick={() =&gt; setActiveLens(lens)} aria-pressed={activeLens === lens}&gt;{lens}&lt;/button&gt;)}&lt;/div&gt;
+        &lt;div className=&quot;project-grid&quot;&gt;{visibleProjects.map((project) =&gt; &lt;article className=&quot;project-card&quot; key={project.number}&gt;
+          &lt;div className=&quot;card-top&quot;&gt;&lt;span&gt;{project.number}&lt;/span&gt;&lt;span&gt;{project.lens}&lt;/span&gt;&lt;/div&gt;
+          &lt;div&gt;&lt;p className=&quot;project-eyebrow&quot;&gt;{project.eyebrow}&lt;/p&gt;&lt;h3&gt;{project.title}&lt;/h3&gt;&lt;p className=&quot;project-description&quot;&gt;{project.description}&lt;/p&gt;&lt;/div&gt;
+          &lt;footer&gt;&lt;span&gt;{project.result}&lt;/span&gt;&lt;button aria-label={`Open ${project.title} case study`}&gt;↗&lt;/button&gt;&lt;/footer&gt;
+        &lt;/article&gt;)}&lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;section className=&quot;approach&quot; id=&quot;approach&quot;&gt;&lt;div className=&quot;section-shell approach-layout&quot;&gt;
+        &lt;div&gt;&lt;p className=&quot;eyebrow&quot;&gt;How I work&lt;/p&gt;&lt;h2&gt;Make the complex feel possible.&lt;/h2&gt;&lt;/div&gt;
+        &lt;div className=&quot;approach-list&quot;&gt;
+          &lt;article&gt;&lt;span&gt;01&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Start with the real question&lt;/h3&gt;&lt;p&gt;Good learning design begins by finding the actual friction—not simply producing a requested deliverable.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;span&gt;02&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Design for motion&lt;/h3&gt;&lt;p&gt;People should always know what matters, what comes next, and why it is worth doing.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;span&gt;03&lt;/span&gt;&lt;div&gt;&lt;h3&gt;Build with care and evidence&lt;/h3&gt;&lt;p&gt;Accessibility, assessment, and lived experience belong in the work from the beginning.&lt;/p&gt;&lt;/div&gt;&lt;/article&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;&lt;/section&gt;
+
+      &lt;section className=&quot;section-shell about-section&quot; id=&quot;about&quot;&gt;
+        &lt;div className=&quot;about-label&quot;&gt;&lt;span className=&quot;brand-mark&quot;&gt;RL&lt;/span&gt;&lt;p className=&quot;eyebrow&quot;&gt;Beyond the job title&lt;/p&gt;&lt;/div&gt;
+        &lt;div className=&quot;about-copy&quot;&gt;&lt;h2&gt;Part learning designer.&lt;br /&gt;Part artist.&lt;br /&gt;&lt;em&gt;Always a teacher.&lt;/em&gt;&lt;/h2&gt;&lt;p&gt;I studied studio art, began in game design, taught in Seoul for eight years, and now help educators make meaningful change at scale. The through-line is a belief that learning can be rigorous without being rigid—and memorable without being performative.&lt;/p&gt;&lt;a className=&quot;text-link&quot; href=&quot;mailto:[email omitted from public portfolio]&quot;&gt;Start a conversation &lt;span aria-hidden=&quot;true&quot;&gt;↗&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+      &lt;/section&gt;
+
+      &lt;section className=&quot;credentials&quot; id=&quot;credentials&quot;&gt;&lt;div className=&quot;section-shell credentials-layout&quot;&gt;
+        &lt;div&gt;&lt;p className=&quot;eyebrow&quot;&gt;Credentials + recognition&lt;/p&gt;&lt;h2&gt;Grounded in practice.&lt;br /&gt;&lt;em&gt;Backed by study.&lt;/em&gt;&lt;/h2&gt;&lt;/div&gt;
+        &lt;div className=&quot;credential-list&quot;&gt;
+          &lt;article&gt;&lt;span&gt;Education&lt;/span&gt;&lt;p&gt;M.A. Education, Learning Design &amp;amp; Technology · San Diego State University&lt;/p&gt;&lt;p&gt;B.A. Studio Art, Magna Cum Laude · CSU Sacramento&lt;/p&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;span&gt;Credentials&lt;/span&gt;&lt;p&gt;CAST Universal Design for Learning Certificate&lt;/p&gt;&lt;p&gt;Microsoft AI-900 Azure AI Fundamentals&lt;/p&gt;&lt;/article&gt;
+          &lt;article&gt;&lt;span&gt;Recognition&lt;/span&gt;&lt;p&gt;Seoul Digital University Top 10 Course Award · four times&lt;/p&gt;&lt;p&gt;Phi Kappa Phi · Phi Theta Kappa&lt;/p&gt;&lt;/article&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;&lt;/section&gt;
+
+      &lt;footer className=&quot;site-footer section-shell&quot;&gt;&lt;p&gt;© {new Date().getFullYear()} Ronald Lethcoe&lt;/p&gt;&lt;p&gt;Open to remote learning-design, faculty-development, and learning-experience roles.&lt;/p&gt;&lt;a href=&quot;mailto:[email omitted from public portfolio]&quot;&gt;[email omitted from public portfolio] ↗&lt;/a&gt;&lt;/footer&gt;
+    &lt;/main&gt;
+  );
+}
+</pre></main></body></html>
