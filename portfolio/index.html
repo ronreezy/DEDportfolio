@@ -117,6 +117,8 @@
     .artifact-tab { padding: 8px 11px; min-height: 44px; max-width: 100%; border: 1px solid #9b88af; border-radius: 4px; background: #fff; color: var(--purple); overflow-wrap: anywhere; text-align: left; }
     .artifact-tab[aria-pressed="true"] { background: var(--purple); border-color: var(--purple); color: #fff; }
     .artifact-preview { min-height: 240px; padding: 16px; border: 1px solid var(--line); background: #f8f9fb; }
+    .artifact-preview.planned { min-height: 0; }
+    .artifact-preview.planned p { margin: 0; }
     .artifact-preview h4 { margin: 0 0 10px; overflow-wrap: anywhere; font-size: 1rem; }
     .artifact-preview figure { margin: 0; }
     .artifact-preview img { display: block; max-width: 100%; max-height: 72vh; width: auto; height: auto; margin: auto; }
@@ -169,8 +171,8 @@
       <p>This review version shows both the evidence currently available and the outcomes I am proposing to complete through a faculty-supervised project. The portfolio supports faculty review; it does not make a credit or equivalency decision.</p>
       <div class="metrics" aria-label="Portfolio coverage summary">
         <div class="metric"><span class="metric-number">127</span><span class="metric-label">outcomes mapped to the crosswalk</span></div>
-        <div class="metric"><span class="metric-number">93</span><span class="metric-label">outcomes with selected evidence</span></div>
-        <div class="metric planned"><span class="metric-number">34</span><span class="metric-label">outcomes included in the completion plan</span></div>
+        <div class="metric"><span class="metric-number" id="selected-evidence-count">98</span><span class="metric-label">outcomes with selected evidence</span></div>
+        <div class="metric planned"><span class="metric-number" id="planned-work-count">29</span><span class="metric-label">outcomes included in the completion plan</span></div>
       </div>
     </section>
     <section class="description" aria-labelledby="description-title">
@@ -194,7 +196,7 @@
       <div id="course-sections"></div>
     </section>
   </main>
-  <footer><div class="container">Review version prepared September 23, 2026 · 24 active course sections · 127 exact outcomes · original files retained in course folders. DED 161 is outside the crosswalk; DED 181 and DED 275 are reference only.</div></footer>
+  <footer><div class="container">Review version prepared September 23, 2026 · 24 active course areas · 127 outcomes.</div></footer>
 
   <dialog id="evidence-dialog" aria-labelledby="dialog-title">
     <div class="dialog-shell">
@@ -218,6 +220,9 @@
   <script>
     "use strict";
     const courses = window.PORTFOLIO_DATA || [];
+    const allOutcomes = courses.flatMap(course => course.outcomes);
+    document.getElementById("selected-evidence-count").textContent = allOutcomes.filter(outcome => outcome.artifacts.length).length;
+    document.getElementById("planned-work-count").textContent = allOutcomes.filter(outcome => !outcome.artifacts.length).length;
     const sections = document.getElementById("course-sections");
     const count = document.getElementById("result-count");
     const search = document.getElementById("search");
@@ -293,6 +298,7 @@
       
       artifactList.replaceChildren();
       preview.replaceChildren();
+      preview.classList.remove("planned");
       if (outcome.artifacts.length) {
         outcome.artifacts.forEach((artifact, index) => {
           const tab = element("button", "artifact-tab", artifact.name);
@@ -306,7 +312,8 @@
         });
         showArtifact(outcome.artifacts[0]);
       } else {
-        preview.append(element("p", "", "This outcome is included in the proposed faculty-supervised completion project. Faculty will determine the required artifact and assessment method before production begins."));
+        preview.classList.add("planned");
+        preview.append(element("p", "", "I plan to meet this outcome through CPTC Campus Quest, the faculty-supervised completion project described in my proposal. Once the project is approved, I will work with faculty to set the specific artifact and assessment for this outcome before I begin production."));
       }
       dialog.showModal();
       title.focus();
@@ -333,6 +340,19 @@
           preview.append(frame);
         } else {
           preview.append(element("p", "", "This video is available from Ronald on request."));
+        }
+      } else if (artifact.kind === "presentation") {
+        const sourceUrl = new URL(path(artifact.original), window.location.href).href;
+        const localHost = ["localhost", "127.0.0.1", "::1"].includes(window.location.hostname);
+        if (!localHost && /^https?:/.test(sourceUrl)) {
+          const frame = element("iframe");
+          frame.src = "https://view.officeapps.live.com/op/embed.aspx?src=" + encodeURIComponent(sourceUrl);
+          frame.title = "Embedded PowerPoint presentation: " + artifact.name;
+          frame.loading = "lazy";
+          frame.allowFullscreen = true;
+          preview.append(frame);
+        } else {
+          preview.append(element("p", "preview-note", "The PowerPoint will open in an embedded viewer on the public portfolio. Use the download link below while reviewing this local copy."));
         }
       } else if (artifact.kind === "document") {
         const frame = element("iframe");
