@@ -52,7 +52,7 @@ window.PORTFOLIO_DATA = [
         "id": "102.3",
         "wording": "Analyze genres of film and summarize the differences.",
         "status": "Strong",
-        "claim": "The submitted papers analyze noir, horror, and science fiction, and compare genre conventions, tone, character types, and visual approach across them.",
+        "claim": "Three submitted DED 102 papers analyze three genres: noir (Stray Dog and Kiss Kiss Bang Bang), horror (Night of the Living Dead and From Dusk Till Dawn), and science fiction (2001: A Space Odyssey). Each paper describes the conventions, tone, character types, and visual approach of its genre, so the differences between the genres can be read across the three papers.",
         "artifacts": [
           {
             "name": "102.1, 102.2, 102.3 - Science Fiction Analysis - Final Paper.docx",
@@ -65,6 +65,12 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "document",
             "preview": "previews/48991757de41b501.html"
+          },
+          {
+            "name": "102.3 - Horror Gender Roles - Assignment 2.docx",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/102-3-horror-gender-roles-assignment-2.html"
           }
         ]
       },
@@ -474,7 +480,7 @@ window.PORTFOLIO_DATA = [
         "id": "114.1",
         "wording": "Demonstrate the use of Elements of Art and Design.",
         "status": "Candidate",
-        "claim": "The face-composition grid uses color, contrast, repeated form, alignment, and visual hierarchy in a finished digital composition.",
+        "claim": "The face-composition grid uses color, contrast, repeated form, alignment, and visual hierarchy in a finished digital composition. Ronald's early Photoshop projects (file dates 2006 to 2010) use color, contrast, texture, and layout in banners and character pieces. Most project folders keep the layered Photoshop files and the original images beside the finished export.",
         "artifacts": [
           {
             "name": "114.1, 114.2 - Art 97 - Face Composition Display.jpg",
@@ -487,6 +493,18 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "image",
             "preview": "previews/b206ba0e616ac7f8.jpg"
+          },
+          {
+            "name": "114.1 - Early Photoshop - Kalas Banner.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-1-early-photoshop-kalas-banner.jpg"
+          },
+          {
+            "name": "114.1 - Early Photoshop - Champloo Mugen.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-1-early-photoshop-champloo-mugen.jpg"
           }
         ]
       },
@@ -494,7 +512,7 @@ window.PORTFOLIO_DATA = [
         "id": "114.2",
         "wording": "Demonstrate the use of Compositions.",
         "status": "Candidate",
-        "claim": "The finished three-by-three face composition uses repetition, grid structure, focal contrast, and balanced positive/negative space.",
+        "claim": "The finished three-by-three face composition uses repetition, grid structure, focal contrast, and balanced positive/negative space. Two early Photoshop composites combine character art, background, and type into one balanced layout, with the layered files preserved.",
         "artifacts": [
           {
             "name": "114.1, 114.2 - Art 97 - Face Composition Display.jpg",
@@ -507,6 +525,18 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "image",
             "preview": "previews/b206ba0e616ac7f8.jpg"
+          },
+          {
+            "name": "114.2 - Early Photoshop - Kingdom Hearts Composite.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-2-early-photoshop-kingdom-hearts-composite.jpg"
+          },
+          {
+            "name": "114.2 - Early Photoshop - Master Chief Composite.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-2-early-photoshop-master-chief-composite.jpg"
           }
         ]
       },
@@ -514,13 +544,31 @@ window.PORTFOLIO_DATA = [
         "id": "114.3",
         "wording": "Demonstrate the use of industry standard graphics software tools to create professionally done projects.",
         "status": "Candidate",
-        "claim": "The face-composition work has a corresponding editable Photoshop project file, and the wider Art 97 archive includes Photoshop files for compositions, adjustments, masks, layers, and text effects.",
+        "claim": "The face-composition work has a corresponding editable Photoshop project file, and the wider Art 97 archive includes Photoshop files for compositions, adjustments, masks, layers, and text effects. Ronald's 2008 to 2010 Photoshop work includes finished designs for a graduation invitation, a hat, and stencil art. The layered Photoshop file is kept with each finished export.",
         "artifacts": [
           {
             "name": "114.1, 114.2, 114.3 - Art 97 - Face Composition Source.psd",
             "original": "",
             "kind": "image",
             "preview": "previews/b206ba0e616ac7f8.jpg"
+          },
+          {
+            "name": "114.3 - Early Photoshop - Graduation Invite.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-3-early-photoshop-graduation-invite.jpg"
+          },
+          {
+            "name": "114.3 - Early Photoshop - Warriors Hat Design.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-3-early-photoshop-warriors-hat-design.jpg"
+          },
+          {
+            "name": "114.3 - Early Photoshop - Robot Love Stencil.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-3-early-photoshop-robot-love-stencil.jpg"
           }
         ]
       },
@@ -528,7 +576,7 @@ window.PORTFOLIO_DATA = [
         "id": "114.4",
         "wording": "Create professional photo enhancements.",
         "status": "Candidate",
-        "claim": "The Art 97 archive contains editable projects explicitly organized as adjustments, including hue/saturation, levels, and layer-style exercises, plus photographic source/composition files.",
+        "claim": "The Art 97 archive contains editable projects explicitly organized as adjustments, including hue/saturation, levels, and layer-style exercises, plus photographic source/composition files. Two early projects appear to treat photographs with black and white conversion, blending, and texture overlays. Limit: the original photos are kept beside each finished file, but the files do not record which specific adjustments were applied.",
         "artifacts": [
           {
             "name": "114.4 - Art 97 - City Levels Source.psd",
@@ -547,6 +595,18 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "image",
             "preview": "previews/0b3df02a21737482.png"
+          },
+          {
+            "name": "114.4 - Early Photoshop - Black and White Treatment.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-4-early-photoshop-black-and-white-treatment.jpg"
+          },
+          {
+            "name": "114.4 - Early Photoshop - Personal Photo Composite.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/114-4-early-photoshop-personal-photo-composite.jpg"
           }
         ]
       }
@@ -579,7 +639,7 @@ window.PORTFOLIO_DATA = [
         "id": "117.2",
         "wording": "Demonstrate proficiency in the digital video equipment and illustrate the basic roles and jobs on a film set.",
         "status": "Partial",
-        "claim": "The treatment, reflection, and completed montage document Ronald planning, shooting, and editing a 70.9-second H.264 video. He identifies the Galaxy S20+ camera, 16:9 capture, shot variety, and CapCut editing workflow, then reflects on camera positioning, framing, and pacing.",
+        "claim": "The treatment, reflection, and completed montage document Ronald planning, shooting, and editing a 70.9-second H.264 video. He identifies the Galaxy S20+ camera, 16:9 capture, shot variety, and CapCut editing workflow, then reflects on camera positioning, framing, and pacing. Two Sacramento State Film 27 projects survive as DV-format (720x480) video files. Ronald states he shot and edited both: the Party Yoda short and a recreated Pineapple Express scene. On Blues Brothers Sweded, Ronald and his friend Mike planned every shot, built the props, and filmed it themselves, with Ronald as Elwood and Mike as Jake, so Ronald worked both behind and in front of the camera. Limit: these records show Ronald's own production roles but do not document the full range of jobs on a film set.",
         "artifacts": [
           {
             "name": "117.2, 117.3 - Takeoff Symphony in the Sky - Music Video Montage.mp4",
@@ -613,6 +673,33 @@ window.PORTFOLIO_DATA = [
             "kind": "video",
             "preview": "",
             "video": "DED 117 final video"
+          },
+          {
+            "name": "117.2, 117.3, 155.2, 155.3, 155.4 - Party Yoda - Final Video.mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Party Yoda (Film 27A final project)"
+          },
+          {
+            "name": "117.2, 117.3, 139.5 - Pineapple Express - Recreated Scene (No Sound).mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Pineapple Express (recreated scene, no sound)"
+          },
+          {
+            "name": "117.2, 117.3, 155.4 - Blues Brothers Sweded - Finished Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Blues Brothers Sweded"
+          },
+          {
+            "name": "117.2, 117.3, 155.4 - Blues Brothers Sweded - Raw Footage (June 2008)",
+            "original": "",
+            "kind": "source",
+            "preview": ""
           }
         ]
       },
@@ -620,7 +707,7 @@ window.PORTFOLIO_DATA = [
         "id": "117.3",
         "wording": "Demonstrate proficiency in basic editing programs to construct a simple sequence.",
         "status": "Strong",
-        "claim": "The completed montage is a 70.9-second sequence planned and edited in CapCut. Its treatment specifies a 1080p, 24 fps production target and a workflow of selecting music, planning shots, shooting multiple angles, editing to pace and tempo, and exporting H.264. Ronald's reflection explains how he synchronized the visual progression and music.",
+        "claim": "The completed montage is a 70.9-second sequence planned and edited in CapCut. Its treatment specifies a 1080p, 24 fps production target and a workflow of selecting music, planning shots, shooting multiple angles, editing to pace and tempo, and exporting H.264. Ronald's reflection explains how he synchronized the visual progression and music. Three more edited sequences come from Ronald's video archive: the Party Yoda short (3:40, Final Cut Pro project retained), a recreated Pineapple Express scene (1:35, Final Cut Pro project retained), and Blues Brothers Sweded (4:48, raw footage from June 2008 retained). Ronald states he shot and edited Yoda and Pineapple Express for a Sacramento State film course. He made Blues Brothers Sweded with his friend Mike: the two planned every shot, built the props, filmed it themselves, and cut it together, with Ronald playing Elwood and Mike playing Jake.",
         "artifacts": [
           {
             "name": "117.2, 117.3 - Takeoff Symphony in the Sky - Music Video Montage.mp4",
@@ -654,6 +741,66 @@ window.PORTFOLIO_DATA = [
             "kind": "video",
             "preview": "",
             "video": "DED 117 final video"
+          },
+          {
+            "name": "117.2, 117.3, 155.2, 155.3, 155.4 - Party Yoda - Final Video.mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Party Yoda (Film 27A final project)"
+          },
+          {
+            "name": "117.3, 155.4 - Party Yoda - Interview Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-155-4-party-yoda-web-research-frame.jpg",
+            "previewNote": "Single frame from the final video. It shows an interview subject with an on-screen name and title caption."
+          },
+          {
+            "name": "117.3, 155.3 - Party Yoda - Final Cut Pro Project.fcp",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          },
+          {
+            "name": "117.2, 117.3, 139.5 - Pineapple Express - Recreated Scene (No Sound).mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Pineapple Express (recreated scene, no sound)"
+          },
+          {
+            "name": "117.3, 139.5 - Pineapple Express - Recreated Scene Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-139-5-pineapple-express-recreated-scene-frame.jpg",
+            "previewNote": "Single frame from the recreated scene."
+          },
+          {
+            "name": "117.3, 139.5 - Pineapple Express - Final Cut Pro Project.fcp",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          },
+          {
+            "name": "117.2, 117.3, 155.4 - Blues Brothers Sweded - Finished Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Blues Brothers Sweded"
+          },
+          {
+            "name": "117.3, 155.4 - Blues Brothers Sweded - Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-155-4-blues-brothers-sweded-title-hands-frame.jpg",
+            "previewNote": "Single frame from the finished video."
+          },
+          {
+            "name": "117.2, 117.3, 155.4 - Blues Brothers Sweded - Raw Footage (June 2008)",
+            "original": "",
+            "kind": "source",
+            "preview": ""
           }
         ]
       },
@@ -718,13 +865,20 @@ window.PORTFOLIO_DATA = [
         "id": "130.1",
         "wording": "Discuss the different types and styles of storyboards.",
         "status": "Strong",
-        "claim": "Ronald's DED 130 submissions include cinematic boards, an advertisement board, an animated/game scenario board, and a final digital storyboard presentation. The files use different panel counts, rendering approaches, shot labels, and narrative purposes, directly supporting discussion of storyboard styles.",
+        "claim": "Ronald's DED 130 submissions use several storyboard types and styles: rough pencil thumbnails, a colored advertisement board for a Disneyland ride, shot thumbnails for a scene called Fear Itself, a logo animation board, a digitally drawn board for Wizard Tales, in-class scenario boards, and a final digital storyboard presentation for the Jisan story. The boards differ in panel count, rendering, shot labels, and purpose.",
         "artifacts": [
           {
             "name": "130.1, 130.2, 130.3, 130.5, 130.6 - DED130 Storyboard Presentation.pptx",
             "original": "",
             "kind": "document",
             "preview": "previews/78750f0a284567a8.html"
+          },
+          {
+            "name": "130.1 - DED130 Storyboard Styles (six boards).jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/130-1-ded130-storyboard-styles.jpg",
+            "previewNote": "Six of Ronald's DED 130 storyboards shown side by side. Each label gives the module the board was made for."
           }
         ]
       },
@@ -870,7 +1024,7 @@ window.PORTFOLIO_DATA = [
         "id": "137.2",
         "wording": "Create simple effects and color correction, then render out the video.",
         "status": "Candidate",
-        "claim": "The editable Flash project has a finished 50-second MOV render. A sampled frame shows layered photographic images, angled polaroid-style composition, typography, and a textured background, demonstrating a designed visual treatment and completed render.",
+        "claim": "The editable Flash project has a finished 50-second MOV render. A sampled frame shows layered photographic images, angled polaroid-style composition, typography, and a textured background, demonstrating a designed visual treatment and completed render. Evangelion Boom is an edited anime music video of 3:16 at 720x480. Ronald states he cut this anime music video in 2001, and the original file is dated November 2001. Limit: the files do not document which effects or color corrections he applied, so this is supporting evidence of editing and rendering only.",
         "artifacts": [
           {
             "name": "137.1, 137.2, 137.3, 137.5 - Free - Rendered Video.mov",
@@ -884,6 +1038,20 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "source",
             "preview": ""
+          },
+          {
+            "name": "137.2, 155.2, 155.3 - Evangelion Boom - Music Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Evangelion - Boom (music video)"
+          },
+          {
+            "name": "137.2, 155.2 - Evangelion Boom - Music Video Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/137-2-155-2-evangelion-boom-music-video-frame.jpg",
+            "previewNote": "Single frame from the finished video."
           }
         ]
       },
@@ -919,7 +1087,7 @@ window.PORTFOLIO_DATA = [
         "id": "137.5",
         "wording": "Create titles with animation.",
         "status": "Candidate",
-        "claim": "The Flash project’s finished video includes designed title lettering integrated with a moving visual sequence. The separate Wu-Tang project also includes a seven-image hand-painted title sequence, showing intentional title treatment and visual continuity.",
+        "claim": "The Flash project’s finished video includes designed title lettering integrated with a moving visual sequence. The separate Wu-Tang project also includes a seven-image hand-painted title sequence, showing intentional title treatment and visual continuity. A Word document from the Pineapple Express project holds title lettering tests: the words PINEAPPLE and EXPRESS set in several fonts, with RGB color values noted. Limit: it shows title design choices, not an animated title, so it supports the lettering half of the outcome.",
         "artifacts": [
           {
             "name": "137.5 - Wu-Tang - Animated Title Sequence Frame 1.JPG",
@@ -942,6 +1110,12 @@ window.PORTFOLIO_DATA = [
           },
           {
             "name": "137.1, 137.2, 137.3, 137.5, 138.4 - Free - Flash Source.fla",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          },
+          {
+            "name": "137.5 - Pineapple Express - Title Lettering and Color Options.docx",
             "original": "",
             "kind": "source",
             "preview": ""
@@ -1107,7 +1281,7 @@ window.PORTFOLIO_DATA = [
         "id": "139.5",
         "wording": "Employ fundamentals of visual design to create well composed moving images on the screen.",
         "status": "Candidate",
-        "claim": "The finished montage uses a planned visual progression from airport activity to takeoff and open sky. The treatment identifies wide and medium shots, mood, and cinematic style; the reflection discusses framing, varied angles, visual pacing, and the intended emotional sequence.",
+        "claim": "The finished montage uses a planned visual progression from airport activity to takeoff and open sky. The treatment identifies wide and medium shots, mood, and cinematic style; the reflection discusses framing, varied angles, visual pacing, and the intended emotional sequence. Ronald recreated a scene from the film Pineapple Express as an assignment for a Sacramento State film course, and he shot and edited it himself. Limit: the assignment sheet is not in the project folder, so the exact assignment wording is not documented.",
         "artifacts": [
           {
             "name": "139.2, 139.5 - Takeoff Symphony in the Sky - Music Video Montage.mp4",
@@ -1115,6 +1289,26 @@ window.PORTFOLIO_DATA = [
             "kind": "video",
             "preview": "",
             "video": "Takeoff Symphony in the Sky (music video montage)"
+          },
+          {
+            "name": "117.2, 117.3, 139.5 - Pineapple Express - Recreated Scene (No Sound).mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Pineapple Express (recreated scene, no sound)"
+          },
+          {
+            "name": "117.3, 139.5 - Pineapple Express - Recreated Scene Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-139-5-pineapple-express-recreated-scene-frame.jpg",
+            "previewNote": "Single frame from the recreated scene."
+          },
+          {
+            "name": "117.3, 139.5 - Pineapple Express - Final Cut Pro Project.fcp",
+            "original": "",
+            "kind": "source",
+            "preview": ""
           }
         ]
       }
@@ -1246,7 +1440,7 @@ window.PORTFOLIO_DATA = [
         "id": "149.6",
         "wording": "Demonstrate basic texturing techniques in the creation of 3D objects.",
         "status": "Strong",
-        "claim": "The Supra render visibly uses distinct materials/textures for the body, windows, wheels, and other components. The AbydosFrost scenes also visibly use environmental surface textures.",
+        "claim": "The Pool and Shark render, the shark UV layout and its layered Photoshop source, and the textured Cave Scene arch show textures Ronald painted in Photoshop and applied to UV-mapped models in Blender. This is CSUS Art 142 coursework from fall 2009.",
         "artifacts": [
           {
             "name": "149.6, 157.1 - Pool and Shark - Final Render.png",
@@ -1468,15 +1662,22 @@ window.PORTFOLIO_DATA = [
       {
         "id": "155.1",
         "wording": "Produce professional grade audio in a digital entertainment production.",
-        "status": "Needs source",
-        "claim": "",
-        "artifacts": []
+        "status": "Partial",
+        "claim": " The Party Yoda project folder holds a 25 MB audio track and an audio capture folder. Limit: nothing in the files shows how the audio was recorded or mixed, so this is a starting point only.",
+        "artifacts": [
+          {
+            "name": "155.1, 155.2 - Party Yoda - Audio Track and Capture Files.wav",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          }
+        ]
       },
       {
         "id": "155.2",
         "wording": "Demonstrate the use and production of audio and visual elements to create a professional quality product.",
         "status": "Candidate",
-        "claim": "The Wu-Tang project preserves a 2:07 720×480 video with audio, a coordinated title sequence, an artist statement, and an image inventory. This shows assembling audio and visual elements into a completed media project.",
+        "claim": "The Wu-Tang project preserves a 2:07 720×480 video with audio, a coordinated title sequence, an artist statement, and an image inventory. This shows assembling audio and visual elements into a completed media project. Party Yoda (interview audio, music, and web footage in one edit), Evangelion Boom, and Papa Roach Kite pair video with a music or voice track. Ronald states he cut the two music videos in 2001, before YouTube existed, and the original files are dated June and November 2001. Limit: the files do not document the audio sources or mixing.",
         "artifacts": [
           {
             "name": "155.2, 169.3 - Wu-Tang - Final Video.mov",
@@ -1502,6 +1703,54 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "source",
             "preview": ""
+          },
+          {
+            "name": "117.2, 117.3, 155.2, 155.3, 155.4 - Party Yoda - Final Video.mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Party Yoda (Film 27A final project)"
+          },
+          {
+            "name": "155.2, 155.3 - Party Yoda - Computer Playback Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/155-2-155-3-party-yoda-coachella-lineup-frame.jpg",
+            "previewNote": "Single frame from the final video. It shows a person watching video on a computer."
+          },
+          {
+            "name": "155.1, 155.2 - Party Yoda - Audio Track and Capture Files.wav",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          },
+          {
+            "name": "137.2, 155.2, 155.3 - Evangelion Boom - Music Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Evangelion - Boom (music video)"
+          },
+          {
+            "name": "137.2, 155.2 - Evangelion Boom - Music Video Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/137-2-155-2-evangelion-boom-music-video-frame.jpg",
+            "previewNote": "Single frame from the finished video."
+          },
+          {
+            "name": "155.2, 155.4 - Papa Roach Kite - Music Video.WMV",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Papa Roach - Kite (music video)"
+          },
+          {
+            "name": "155.2, 155.4 - Papa Roach Kite - Music Video Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/155-2-155-4-kite-music-video-frame.jpg",
+            "previewNote": "Single frame from the finished video."
           }
         ]
       },
@@ -1509,7 +1758,7 @@ window.PORTFOLIO_DATA = [
         "id": "155.3",
         "wording": "Apply knowledge of software to create and edit digital entertainment products.",
         "status": "Candidate",
-        "claim": "The Free package preserves editable Flash and Photoshop source files plus MOV/SWF exports. The Takeoff montage treatment and reflection document editing in CapCut to synchronize visual pacing and music as a storytelling choice. Together, these show using software to create/edit media and use pacing to enhance narrative effect.",
+        "claim": "The Free package preserves editable Flash and Photoshop source files plus MOV/SWF exports. The Takeoff montage treatment and reflection document editing in CapCut to synchronize visual pacing and music as a storytelling choice. Together, these show using software to create/edit media and use pacing to enhance narrative effect. Ronald's Party Yoda project was edited in Final Cut Pro, and the project file is preserved with its raw footage and render files. The Evangelion Boom music video is a finished edit from 2001.",
         "artifacts": [
           {
             "name": "155.3, 155.4 - Free - Rendered Video.mov",
@@ -1523,6 +1772,33 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "source",
             "preview": ""
+          },
+          {
+            "name": "117.2, 117.3, 155.2, 155.3, 155.4 - Party Yoda - Final Video.mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Party Yoda (Film 27A final project)"
+          },
+          {
+            "name": "117.3, 155.3 - Party Yoda - Final Cut Pro Project.fcp",
+            "original": "",
+            "kind": "source",
+            "preview": ""
+          },
+          {
+            "name": "155.2, 155.3 - Party Yoda - Computer Playback Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/155-2-155-3-party-yoda-coachella-lineup-frame.jpg",
+            "previewNote": "Single frame from the final video. It shows a person watching video on a computer."
+          },
+          {
+            "name": "137.2, 155.2, 155.3 - Evangelion Boom - Music Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Evangelion - Boom (music video)"
           }
         ]
       },
@@ -1530,7 +1806,7 @@ window.PORTFOLIO_DATA = [
         "id": "155.4",
         "wording": "Illustrate competency of software techniques to enhance storytelling in digital media products.",
         "status": "Candidate",
-        "claim": "The Free package preserves editable Flash and Photoshop source files plus MOV/SWF exports. The Takeoff montage treatment and reflection document editing in CapCut to synchronize visual pacing and music as a storytelling choice. Together, these show using software to create/edit media and use pacing to enhance narrative effect.",
+        "claim": "The Free package preserves editable Flash and Photoshop source files plus MOV/SWF exports. The Takeoff montage treatment and reflection document editing in CapCut to synchronize visual pacing and music as a storytelling choice. Together, these show using software to create/edit media and use pacing to enhance narrative effect. The Party Yoda short tells a documentary story about a viral Coachella puppet. Blues Brothers Sweded is a comic remake, and Papa Roach Kite tells a story through anime and music. Ronald states he put the Party Yoda story together himself, and that he and his friend Mike planned, filmed, and edited Blues Brothers Sweded.",
         "artifacts": [
           {
             "name": "155.3, 155.4 - Free - Rendered Video.mov",
@@ -1544,6 +1820,48 @@ window.PORTFOLIO_DATA = [
             "original": "",
             "kind": "source",
             "preview": ""
+          },
+          {
+            "name": "117.2, 117.3, 155.2, 155.3, 155.4 - Party Yoda - Final Video.mov",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Party Yoda (Film 27A final project)"
+          },
+          {
+            "name": "117.3, 155.4 - Party Yoda - Interview Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-155-4-party-yoda-web-research-frame.jpg",
+            "previewNote": "Single frame from the final video. It shows an interview subject with an on-screen name and title caption."
+          },
+          {
+            "name": "117.2, 117.3, 155.4 - Blues Brothers Sweded - Finished Video.avi",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Blues Brothers Sweded"
+          },
+          {
+            "name": "117.3, 155.4 - Blues Brothers Sweded - Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/117-3-155-4-blues-brothers-sweded-title-hands-frame.jpg",
+            "previewNote": "Single frame from the finished video."
+          },
+          {
+            "name": "155.2, 155.4 - Papa Roach Kite - Music Video.WMV",
+            "original": "",
+            "kind": "video",
+            "preview": "",
+            "video": "Papa Roach - Kite (music video)"
+          },
+          {
+            "name": "155.2, 155.4 - Papa Roach Kite - Music Video Frame.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/155-2-155-4-kite-music-video-frame.jpg",
+            "previewNote": "Single frame from the finished video."
           }
         ]
       }
@@ -1653,16 +1971,16 @@ window.PORTFOLIO_DATA = [
             "preview": "previews/hanyang-animation-production-reflection.html"
           },
           {
-            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1.pptx",
-            "original": "evidence/ded-162/hanyang-pokemon-training-level-1-part-1.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1 (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-pokemon-training-selected-slides.html"
           },
           {
-            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia.pptx",
-            "original": "evidence/ded-162/hanyang-three-little-pigs-multimedia.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-three-little-pigs-selected-slides.html"
           },
           {
             "name": "162.1 - Free - Flash Animation Render.mov",
@@ -1692,10 +2010,10 @@ window.PORTFOLIO_DATA = [
             "preview": ""
           },
           {
-            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1.pptx",
-            "original": "evidence/ded-162/hanyang-pokemon-training-level-1-part-1.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1 (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-pokemon-training-selected-slides.html"
           },
           {
             "name": "162.1, 162.2, 162.3, 162.5, 162.6 - Hanyang Animation Production Reflection",
@@ -1718,10 +2036,10 @@ window.PORTFOLIO_DATA = [
             "preview": "previews/hanyang-animation-production-reflection.html"
           },
           {
-            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1.pptx",
-            "original": "evidence/ded-162/hanyang-pokemon-training-level-1-part-1.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1 (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-pokemon-training-selected-slides.html"
           }
         ]
       },
@@ -1732,10 +2050,10 @@ window.PORTFOLIO_DATA = [
         "claim": "Pokémon Training Level I Part 1 contains 30 slides, animation timing on 18 slides, 440 animation nodes, embedded media, and click actions. The DDT deck adds six custom motion paths. The source files make the detailed sequencing and object-level timing directly inspectable.",
         "artifacts": [
           {
-            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1.pptx",
-            "original": "evidence/ded-162/hanyang-pokemon-training-level-1-part-1.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1 (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-pokemon-training-selected-slides.html"
           },
           {
             "name": "162.2, 162.4 - Hanyang DDT Motion-Path Sequence.pptx",
@@ -1752,10 +2070,10 @@ window.PORTFOLIO_DATA = [
         "claim": "The Three Little Pigs project transforms written and illustrated lesson material into a timed audiovisual sequence with presenter footage, changing lyrics, animation, audio editing, and final video exports. The PowerPoint source contains 64 slides, with animation timing on 39 slides and 131 animation nodes.",
         "artifacts": [
           {
-            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia.pptx",
-            "original": "evidence/ded-162/hanyang-three-little-pigs-multimedia.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-three-little-pigs-selected-slides.html"
           },
           {
             "name": "162.1, 162.2, 162.3, 162.5, 162.6 - Hanyang Animation Production Reflection",
@@ -1778,16 +2096,16 @@ window.PORTFOLIO_DATA = [
             "preview": "previews/hanyang-animation-production-reflection.html"
           },
           {
-            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia.pptx",
-            "original": "evidence/ded-162/hanyang-three-little-pigs-multimedia.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.5, 162.6 - Hanyang Three Little Pigs Multimedia (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-three-little-pigs-selected-slides.html"
           },
           {
-            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1.pptx",
-            "original": "evidence/ded-162/hanyang-pokemon-training-level-1-part-1.pptx",
-            "kind": "presentation",
-            "preview": ""
+            "name": "162.1, 162.2, 162.3, 162.4, 162.6 - Hanyang Pokémon Training - Level I Part 1 (selected slides)",
+            "original": "",
+            "kind": "document",
+            "preview": "previews/hanyang-pokemon-training-selected-slides.html"
           }
         ]
       }
@@ -2004,13 +2322,27 @@ window.PORTFOLIO_DATA = [
         "id": "176.2",
         "wording": "Assess and implement advanced lighting systems as the project demands.",
         "status": "Strong",
-        "claim": "Week 6 is a dedicated lighting study with 47 of Ronald's own render iterations, and week 9 adds volumetric lighting and a lighthouse scene built around a light source. The volume of iterations is itself the evidence of assessing a lighting setup and adjusting it to what the scene demanded.",
+        "claim": "In a week 6 lighting exercise Ronald rendered the same vase scene eight times as he added and adjusted lamp, sun, spot, hemi, and area lights. In week 9 he rendered scenes using volumetric light, ambient occlusion, radiosity, and a lighthouse built around its light source. The Grotto final render applies lighting to a complete cave scene of his own. This is CSUS Art 142 coursework in Blender from fall 2009.",
         "artifacts": [
           {
             "name": "176.2, 176.4 - Cave Scene - Grotto Final Render.png",
             "original": "",
             "kind": "image",
             "preview": "previews/176-2-176-4-cave-scene-grotto-final-render.jpg"
+          },
+          {
+            "name": "176.2 - Art 142 Week 6 - Lighting Progression (8 renders).jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/176-2-art-142-week-6-lighting-progression.jpg",
+            "previewNote": "Eight renders of one scene in the order Ronald made them, labeled with the lighting change in each."
+          },
+          {
+            "name": "176.2 - Art 142 Week 9 - Lighting Renders.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/176-2-art-142-week-9-lighting-renders.jpg",
+            "previewNote": "Four week 9 renders: a lighthouse scene, volumetric light, ambient occlusion, and radiosity."
           },
           {
             "name": "149.6, 157.1, 157.2, 176.1, 176.2, 176.4 - Cave Scene - Grotto Source.blend",
@@ -2038,7 +2370,7 @@ window.PORTFOLIO_DATA = [
         "id": "176.4",
         "wording": "Compose scenes using advanced modeling, texturing, and rendering settings in unison.",
         "status": "Strong",
-        "claim": "The AbydosFrost interior and exterior renders combine modeled architecture/props, environmental surface detail, composition, lighting, and rendered effects into complete scenes.",
+        "claim": "The Grotto cave scene from CSUS Art 142 Assignment 2 (fall 2009) is Ronald's own work from start to finish: separately modeled props such as the arch, barrel, boat, chest, and lantern, textures he painted in Photoshop, scene assembly, lighting, and a final render in Blender.",
         "artifacts": [
           {
             "name": "176.2, 176.4 - Cave Scene - Grotto Final Render.png",
@@ -2367,19 +2699,38 @@ window.PORTFOLIO_DATA = [
         "id": "280.1",
         "wording": "Create a professional level portfolio website.",
         "status": "Candidate",
-        "claim": "Ronald's current portfolio site, built in September 2026, is a responsive React page with a learning-designer brand, project cards, an about section, credentials, navigation, a contact link, and image alt text. A 2022 screenshot documents an earlier portfolio-site design.",
+        "claim": "A separate portfolio repository from September 2026 holds the source for a responsive React portfolio page with a learning-designer brand, project cards, an about section, credentials, navigation, a contact link, and image alt text. An infographic, The Past, Present and Future of RL, comes from an earlier portfolio. Ronald's early Photoshop work includes two website page layouts and a blog header. Limit: the early Photoshop layouts are static mockups, and the React source and this evidence site are separate projects.",
         "artifacts": [
           {
-            "name": "280.1, 280.4 - Past Present Future RL - Portfolio Website Screenshot.png",
+            "name": "280.1, 280.4 - Past Present Future RL - Earlier Portfolio Infographic.png",
             "original": "",
             "kind": "image",
-            "preview": "previews/280-1-280-4-past-present-future-rl-portfolio-website-screenshot.jpg"
+            "preview": "previews/280-1-280-4-past-present-future-rl-portfolio-website-screenshot.jpg",
+            "previewNote": "Infographic from an earlier portfolio, shown as it was made. The second \"late 2000s\" heading is an error in the original and should read 2010s."
           },
           {
             "name": "280.1 - Remote Learning Design Portfolio - Page Source.tsx",
             "original": "",
             "kind": "document",
             "preview": "previews/91a6553e7dac71fe.html"
+          },
+          {
+            "name": "280.1 - Early Photoshop - Website Layout 1.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/280-1-early-photoshop-website-layout-1.jpg"
+          },
+          {
+            "name": "280.1 - Early Photoshop - Website Layout 2.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/280-1-early-photoshop-website-layout-2.jpg"
+          },
+          {
+            "name": "280.1 - Early Photoshop - Blog Header.jpg",
+            "original": "",
+            "kind": "image",
+            "preview": "previews/280-1-early-photoshop-blog-header.jpg"
           }
         ]
       },
@@ -2411,10 +2762,11 @@ window.PORTFOLIO_DATA = [
         "claim": "The retained portfolio screenshot presents Ronald's work visually and in writing through a designed timeline, illustrated sections, headings, and explanatory text. The current portfolio source also includes written navigation, project summaries, credentials, and contact information.",
         "artifacts": [
           {
-            "name": "280.1, 280.4 - Past Present Future RL - Portfolio Website Screenshot.png",
+            "name": "280.1, 280.4 - Past Present Future RL - Earlier Portfolio Infographic.png",
             "original": "",
             "kind": "image",
-            "preview": "previews/280-1-280-4-past-present-future-rl-portfolio-website-screenshot.jpg"
+            "preview": "previews/280-1-280-4-past-present-future-rl-portfolio-website-screenshot.jpg",
+            "previewNote": "Infographic from an earlier portfolio, shown as it was made. The second \"late 2000s\" heading is an error in the original and should read 2010s."
           }
         ]
       }

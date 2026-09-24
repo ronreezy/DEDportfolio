@@ -171,8 +171,8 @@
       <p>This review version shows both the evidence currently available and the outcomes I am proposing to complete through a faculty-supervised project. The portfolio supports faculty review; it does not make a credit or equivalency decision.</p>
       <div class="metrics" aria-label="Portfolio coverage summary">
         <div class="metric"><span class="metric-number">127</span><span class="metric-label">outcomes mapped to the crosswalk</span></div>
-        <div class="metric"><span class="metric-number" id="selected-evidence-count">98</span><span class="metric-label">outcomes with selected evidence</span></div>
-        <div class="metric planned"><span class="metric-number" id="planned-work-count">29</span><span class="metric-label">outcomes included in the completion plan</span></div>
+        <div class="metric"><span class="metric-number" id="selected-evidence-count">99</span><span class="metric-label">outcomes with selected evidence</span></div>
+        <div class="metric planned"><span class="metric-number" id="planned-work-count">28</span><span class="metric-label">outcomes included in the completion plan</span></div>
       </div>
     </section>
     <section class="description" aria-labelledby="description-title">
@@ -196,7 +196,7 @@
       <div id="course-sections"></div>
     </section>
   </main>
-  <footer><div class="container">Review version prepared September 23, 2026 · 24 active course areas · 127 outcomes.</div></footer>
+  <footer><div class="container">Review version prepared September 24, 2026 · 24 active course areas · 127 outcomes.</div></footer>
 
   <dialog id="evidence-dialog" aria-labelledby="dialog-title">
     <div class="dialog-shell">
@@ -360,7 +360,7 @@
         frame.title = "Embedded document preview: " + artifact.name;
         preview.append(frame);
       } else {
-        preview.append(element("p", "", "This native source file has no browser display format. Its evidence claim and limitations appear above. Open the original in the program that created it to inspect its editable structure."));
+        preview.append(element("p", "", artifact.original ? "This native source file has no browser display format. Its evidence claim and limitations appear above. Download the original below and open it in the program that created it to inspect its editable structure." : "This source file has no browser display format and is kept in Ronald's private archive. It is available to faculty on request. Its evidence claim and limitations appear above."));
       }
       if (artifact.original) {
         const original = element("a", "original-link", "Download original " + artifact.name);
